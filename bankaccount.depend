@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1600247956 source:c:\users\training\documents\bankaccount\account.cc
+	<iostream>
+	"account.h"
+
+1600248482 c:\users\training\documents\bankaccount\account.h
+	<string.h>
+	<iostream>
+
+1600249044 source:c:\users\training\documents\cpp\set-1\bankaccount\account.cc
+	<iostream>
+	"account.h"
+
+1600489209 c:\users\training\documents\cpp\set-1\bankaccount\account.h
+	<string.h>
+	<iostream>
+
+1600332011 source:c:\users\training\documents\cpp\set-1\bankaccount\account_test.cc
+	"account.h"
+	<gtest/gtest.h>
+
