@@ -1,0 +1,26 @@
+account.cc:7:41: performance: Function parameter 'name' should be passed by const reference. [passedByValue]
+account::account(int number,std::string name, double bal): acc_no(number),acc_name(name),balance(bal){}
+                                        ^
+account_test.cc:14:1: error: syntax error [syntaxError]
+TEST(account,ParameterizedConstructor) {
+^
+account.cc:13:0: style: The function 'credit' is never used. [unusedFunction]
+
+^
+account.cc:16:0: style: The function 'debit' is never used. [unusedFunction]
+
+^
+account.cc:31:0: style: The function 'display' is never used. [unusedFunction]
+
+^
+account.cc:27:0: style: The function 'getBalance' is never used. [unusedFunction]
+
+^
+account.cc:21:0: style: The function 'getCustomerId' is never used. [unusedFunction]
+
+^
+account.cc:24:0: style: The function 'getCustomerName' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
